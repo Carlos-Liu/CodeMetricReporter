@@ -1,0 +1,1876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Bec.Connect.OracleSync.csproj">
+      <Assembly Name="Connect.OracleSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="75" />
+          <Metric Name="CyclomaticComplexity" Value="125" />
+          <Metric Name="ClassCoupling" Value="77" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="793" />
+          <Metric Name="ExecutableLines" Value="210" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Bec.Connect.OracleSync.Config">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="82" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="17" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="54" />
+              <Metric Name="ExecutableLines" Value="16" />
+            </Metrics>
+            <Types>
+              <NamedType Name="InjectAttribute">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="95" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="InjectAttribute.InjectAttribute(Type type)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Config\InjectAttribute.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="Type InjectAttribute.Type" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Config\InjectAttribute.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Type InjectAttribute.Type.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Config\InjectAttribute.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="InjectConfiguration">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="69" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="13" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="IServiceProvider InjectConfiguration._serviceProvider" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Config\InjectConfiguration.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void InjectConfiguration.Initialize(ExtensionConfigContext context)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Config\InjectConfiguration.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void InjectConfiguration.RegisterServices(IServiceCollection services)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Config\InjectConfiguration.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Bec.Connect.OracleSync.Functions">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="85" />
+              <Metric Name="CyclomaticComplexity" Value="5" />
+              <Metric Name="ClassCoupling" Value="12" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="44" />
+              <Metric Name="ExecutableLines" Value="9" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ContractChangeFunction">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="19" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="ContractChangeFunction.ContractChangeFunction()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Functions\ContractChangeFunction.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task ContractChangeFunction.Run(bool myQueueItem, TraceWriter log, IContractChangeProcessor processor)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Functions\ContractChangeFunction.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="OracleSyncFunction">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="OracleSyncFunction.OracleSyncFunction()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Functions\OracleSyncFunction.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task OracleSyncFunction.Run(Stream myInputBlob, string name, TraceWriter log, IFileSyncProcessor fileSyncProcessor)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Functions\OracleSyncFunction.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Bec.Connect.OracleSync.Internal.Base">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="94" />
+              <Metric Name="CyclomaticComplexity" Value="2" />
+              <Metric Name="ClassCoupling" Value="3" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="18" />
+              <Metric Name="ExecutableLines" Value="2" />
+            </Metrics>
+            <Types>
+              <NamedType Name="OracleSyncException">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="94" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="14" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Method Name="OracleSyncException.OracleSyncException(string message)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Base\OracleSyncException.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="OracleSyncException.OracleSyncException(Exception ex, string message)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Base\OracleSyncException.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Bec.Connect.OracleSync.Internal.Business">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="86" />
+              <Metric Name="CyclomaticComplexity" Value="32" />
+              <Metric Name="ClassCoupling" Value="36" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="362" />
+              <Metric Name="ExecutableLines" Value="93" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ContractChangeBusiness">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="68" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="43" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="IDataAccessor ContractChangeBusiness._dataAccessor" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeBusiness.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ContractChangeBusiness.ContractChangeBusiness(IDataAccessor dataAccessor)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeBusiness.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task ContractChangeBusiness.UpdateContractChangeStatusAsync(ContractChangeRecordEntity contractChangeRecordEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeBusiness.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ContractChangeConstants">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="int ContractChangeConstants.CONTRACT_CHANGE_SUCCESS" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeConstants.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ContractChangeConstants.CONTRACT_CHANGE_UNHANDLED_SUCCESS" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeConstants.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ContractChangeProcessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="99" />
+                  <Metric Name="ExecutableLines" Value="32" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ContractChangeProcessor.s_privateToken" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ContractChangeProcessor.s_tvInactiveAliasNameSuffix" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IDataAccessor ContractChangeProcessor._dataAccessor" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IContractChangeBusiness ContractChangeProcessor._contractChangeBusiness" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ITeamViewerApiDeviceClient ContractChangeProcessor._tvClient" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ContractChangeProcessor.CONTRACT_CHANGE_ACTIVE_TO_INACTIVE_NUM" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ContractChangeProcessor.CONTRACT_CHANGE_INACTIVE_TO_ACTIVE_NUM" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ContractChangeProcessor.ContractChangeProcessor(IDataAccessor dataAccessor, IContractChangeBusiness contractChangeBusiness, ITeamViewerApiDeviceClient tvClient)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task ContractChangeProcessor.ContractChangeProcessAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ContractChangeProcessor.GetAliasName(int contractStatusChangeCode, string deviceAliasName)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileSyncBusiness">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="66" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="21" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="92" />
+                  <Metric Name="ExecutableLines" Value="35" />
+                </Metrics>
+                <Members>
+                  <Field Name="int FileSyncBusiness.s_insertBulkCount" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int FileSyncBusiness.s_sleepTime" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IDataAccessor FileSyncBusiness._dataAccessor" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="FileSyncBusiness.FileSyncBusiness(IDataAccessor dataAccessor)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;bool&gt; FileSyncBusiness.SaveDataAsync(List&lt;OracleRawDataEntity&gt; fileDataList)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;OracleRawDataEntity&gt; FileSyncBusiness.ReadFile(Stream fileStream)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileSyncProcessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="13" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="38" />
+                  <Metric Name="ExecutableLines" Value="11" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileSyncProcessor.s_queueName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileSyncProcessor.s_connectString" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IQueueClient FileSyncProcessor.s_client" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IFileSyncBusiness FileSyncProcessor._fileSyncBusiness" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="FileSyncProcessor.FileSyncProcessor(IFileSyncBusiness fileSyncBusiness)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task FileSyncProcessor.FileSyncAsync(Stream myInputBlob, string name)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task FileSyncProcessor.AddMessageToQueueAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IContractChangeBusiness">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Task IContractChangeBusiness.UpdateContractChangeStatusAsync(ContractChangeRecordEntity contractChangeRecordEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeBusiness.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IContractChangeProcessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Task IContractChangeProcessor.ContractChangeProcessAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\ContractChangeProcessor.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IFileSyncBusiness">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="22" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Task&lt;bool&gt; IFileSyncBusiness.SaveDataAsync(List&lt;OracleRawDataEntity&gt; oracleRawDataEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;OracleRawDataEntity&gt; IFileSyncBusiness.ReadFile(Stream fileStream)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncBusiness.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IFileSyncProcessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="16" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Task IFileSyncProcessor.FileSyncAsync(Stream myInputBlob, string name)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task IFileSyncProcessor.AddMessageToQueueAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Business\FileSyncProcessor.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Bec.Connect.OracleSync.Internal.Data">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="86" />
+              <Metric Name="CyclomaticComplexity" Value="23" />
+              <Metric Name="ClassCoupling" Value="22" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="235" />
+              <Metric Name="ExecutableLines" Value="46" />
+            </Metrics>
+            <Types>
+              <NamedType Name="DataAccessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="94" />
+                  <Metric Name="ExecutableLines" Value="18" />
+                </Metrics>
+                <Members>
+                  <Field Name="IDataContext DataAccessor._dataContext" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="DataAccessor.DataAccessor(IDataContext dataContext)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; DataAccessor.TruncateRawDataAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;bool&gt; DataAccessor.SaveRawDataAsync(List&lt;OracleRawDataEntity&gt; oracleRawDataEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; DataAccessor.MergeRawDataAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;IEnumerable&lt;ContractChangeRecordEntity&gt;&gt; DataAccessor.GetContractChangedRecordAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="97">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; DataAccessor.UpdateContractChangedStatusAsync(ContractChangeRecordEntity contractChangeRecordEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;GroupNameEntity&gt; DataAccessor.GetInstrumentInfoAsync(string instrumentNumber)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="131">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; DataAccessor.UpdateUnHandledContractChangedStatusAsync(ContractChangeRecordEntity contractChangeRecordEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="DataContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="77" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="46" />
+                  <Metric Name="ExecutableLines" Value="20" />
+                </Metrics>
+                <Members>
+                  <Field Name="string DataContext.s_connectionString" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int DataContext.s_commandTimeOut" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int DataContext.s_commandBatchSize" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Task&lt;int&gt; DataContext.ExecuteAsync(string sql, object param = null, CommandType? commandType = null)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;bool&gt; DataContext.ExecuteListAsync&lt;T&gt;(IList&lt;T&gt; collection)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;IEnumerable&lt;T&gt;&gt; DataContext.QueryAsync&lt;T&gt;(string sql, object param = null)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;T&gt; DataContext.QuerySingleOrDefaultAsync&lt;T&gt;(string sql, object param = null)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IDataAccessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="Task&lt;int&gt; IDataAccessor.TruncateRawDataAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;bool&gt; IDataAccessor.SaveRawDataAsync(List&lt;OracleRawDataEntity&gt; oracleRawDataEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; IDataAccessor.MergeRawDataAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;IEnumerable&lt;ContractChangeRecordEntity&gt;&gt; IDataAccessor.GetContractChangedRecordAsync()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; IDataAccessor.UpdateContractChangedStatusAsync(ContractChangeRecordEntity contractChangeRecordEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;GroupNameEntity&gt; IDataAccessor.GetInstrumentInfoAsync(string instrumentNumber)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;int&gt; IDataAccessor.UpdateUnHandledContractChangedStatusAsync(ContractChangeRecordEntity contractChangeRecordEntity)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataAccessor.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IDataContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="35" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Method Name="Task&lt;int&gt; IDataContext.ExecuteAsync(string sql, object param = null, CommandType? commandType = null)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;bool&gt; IDataContext.ExecuteListAsync&lt;T&gt;(IList&lt;T&gt; collection)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;IEnumerable&lt;T&gt;&gt; IDataContext.QueryAsync&lt;T&gt;(string sql, object param = null)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Task&lt;T&gt; IDataContext.QuerySingleOrDefaultAsync&lt;T&gt;(string sql, object param = null)" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataContext.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Bec.Connect.OracleSync.Internal.Data.DataEntity">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="16" />
+              <Metric Name="ClassCoupling" Value="0" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="20" />
+              <Metric Name="ExecutableLines" Value="0" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ContractChangeRecordEntity">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int ContractChangeRecordEntity.Id" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ContractChangeRecordEntity.Id.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ContractChangeRecordEntity.Id.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ContractChangeRecordEntity.InstrumentNumber" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ContractChangeRecordEntity.InstrumentNumber.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ContractChangeRecordEntity.InstrumentNumber.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ContractChangeRecordEntity.IsProcessed" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ContractChangeRecordEntity.IsProcessed.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ContractChangeRecordEntity.IsProcessed.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ContractChangeRecordEntity.ContractStatusChangeCode" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ContractChangeRecordEntity.ContractStatusChangeCode.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ContractChangeRecordEntity.ContractStatusChangeCode.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ContractChangeRecordEntity.TeamViewerId" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ContractChangeRecordEntity.TeamViewerId.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ContractChangeRecordEntity.TeamViewerId.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\ContractChangeRecordEntity.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="GroupNameEntity">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="6" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string GroupNameEntity.Region" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupNameEntity.Region.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupNameEntity.Region.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupNameEntity.ProductLine" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupNameEntity.ProductLine.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupNameEntity.ProductLine.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupNameEntity.InstalledAtCountryName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupNameEntity.InstalledAtCountryName.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupNameEntity.InstalledAtCountryName.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Data\DataEntity\GroupNameEntity.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Bec.Connect.OracleSync.Internal.Entity">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="71" />
+              <Metric Name="CyclomaticComplexity" Value="43" />
+              <Metric Name="ClassCoupling" Value="6" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="60" />
+              <Metric Name="ExecutableLines" Value="44" />
+            </Metrics>
+            <Types>
+              <NamedType Name="OracleFileDbMapper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="43" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="42" />
+                </Metrics>
+                <Members>
+                  <Method Name="OracleFileDbMapper.OracleFileDbMapper()" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleFileDbMapper.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="42" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="OracleRawDataEntity">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="42" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="25" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Property Name="string OracleRawDataEntity.InstrumentNumber" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstrumentNumber.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstrumentNumber.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.ProductLine" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.ProductLine.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.ProductLine.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.SerialNumber" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.SerialNumber.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.SerialNumber.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtCustomerName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtCustomerName.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtCustomerName.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtStreetAddressLine1" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtStreetAddressLine1.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtStreetAddressLine1.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtStreetAddressLine2" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtStreetAddressLine2.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtStreetAddressLine2.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtStreetAddressLine3" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtStreetAddressLine3.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtStreetAddressLine3.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtStreetAddressLine4" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtStreetAddressLine4.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtStreetAddressLine4.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtCity" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtCity.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtCity.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtState" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtState.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtState.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtCountryName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtCountryName.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtCountryName.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.ModelTest" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.ModelTest.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.ModelTest.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.CoverageLevel" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.CoverageLevel.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.CoverageLevel.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.StatusName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.StatusName.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.StatusName.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtHighGeo1" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtHighGeo1.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtHighGeo1.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtHighGeo2" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtHighGeo2.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtHighGeo2.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtHighGeo3" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtHighGeo3.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtHighGeo3.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.ProductName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.ProductName.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.ProductName.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.InstalledAtCustomerNumber" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.InstalledAtCustomerNumber.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.InstalledAtCustomerNumber.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.CoverageName" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.CoverageName.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.CoverageName.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OracleRawDataEntity.Market" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OracleRawDataEntity.Market.get" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OracleRawDataEntity.Market.set" File="C:\VDisk\03-BeckmanConnect\repo\Connect\Source\OracleSync\Internal\Entity\OracleRawDataEntity.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
